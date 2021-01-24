@@ -1,0 +1,66 @@
+nav {
+    background-color: #6F8AB7;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logoPlan {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.palette {
+    border-style: solid;
+}
+
+.prsn-img {
+    max-width: 300px;
+    border-style: solid;
+}
+
+/*########### Media Query ########*/
+
+@media only screen and (min-width: 0px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 0.6rem;
+    }
+
+    .palette {
+        width: 100%;
+        
+    }
+    body {
+        padding: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 572px) {
+    body {
+        max-width: 1024px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
