@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/small.css'>
+    <link rel='stylesheet' href='css/medium.css'>
+    <title>Preston Town Page - GoWeatherBoy</title>
+</head>
+
+<body>
+    <header>
+        <img src='images/weatherLogo.png' alt='weatherLogo'>
+        <div class='headings'>
+            <h1>GoWeatherBoy</h1>
+            <p><i>No fluff, just the good stuff!</i></p>
+        </div>
+            
+    </header>
+
+    <nav>
+        <button id="menu-button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="responsive-nav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div>Hero Image w/ Weather Summary</div>
+        <div>5 Day Forecast</div>
+        <div>Article</div>
+        <div>Contact Info</div>
+    </main>
+
+    <footer>
+        <div>&copy; <span id="currentYear"></span> | GoWeatherBoy | TJ O'Brien</div>
+        <div id="currentDate"></div>
+    </footer>
+    <script src="js/the-script.js"></script>
+</body>
+</html>
