@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Idaho Town Page Weather">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/small.css'>
+    <link rel='stylesheet' href='css/medium.css'>
+    <link rel='stylesheet' href='css/large.css'>
+    <title>Preston Town Page - GoWeatherBoy</title>
+</head>
+
+<body>
+    <header>
+        <img src='images/weatherLogo.png' alt='weatherLogo'>
+        <div class='headings'>
+            <h1>GoWeatherBoy</h1>
+            <p><i>No fluff, just the good stuff!</i></p>
+        </div>
+            
+    </header>
+    
+    <div class="banner">
+        <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <nav>
+        <button id="menu-button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="responsive-nav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class='hero-image'>
+            <div class='weather-summary-med'>
+                <h2>Weather Summary</h2>
+                    <p>Current Conditions: Clear Skies</p>
+                    <p>Temperature: 48°</p>
+                    <p>Feels Like: 41°</p>
+            </div>
+            <img src='images/mountain-hero-img.jpg' alt='moutains and lake'>
+        </div>
+        
+        <div class='weather-summary'>
+            <h2>Weather Summary</h2>
+                <p>Current Conditions: Clear Skies</p>
+                <p>Temperature: 48°</p>
+                <p>Feels Like: 41°</p>
+        </div>
+        
+        <div class='forecast'>
+            <h2>5-Day Forecast</h2>
+            <div class='forecast-days'>
+                <div>
+                    <h3>Sat</h3>
+                    <img src="images/sunny-icon.svg" alt="It's sunny!">
+                    <h4>50°</h4>
+                </div>
+                <div>
+                    <h3>Sun</h3>
+                    <img src="images/sunny-icon.svg" alt="It's sunny!">
+                    <h4>54°</h4>
+                </div>
+                <div>
+                    <h3>Mon</h3>
+                    <img src="images/cloudy-icon.svg" alt="It's cloudy">
+                    <h4>53°</h4>
+                </div>
+                <div>
+                    <h3>Tue</h3>
+                    <img src="images/sunny-icon.svg" alt="It's sunny!">
+                    <h4>56°</h4>
+                </div>
+                <div>
+                    <h3>Wed</h3>
+                    <img src="images/cloudy-icon.svg" alt="It's cloudy">
+                    <h4>43°</h4>
+                </div>
+            </div>
+        </div>
+        <div class='article'>
+            <div>
+                <h2>Totally a Weather Article</h2>
+                <p>This is some sweet filler text and you can't judge me for not wanting to use the loriem epsom salts or whatever that 
+                thing is called. Do you like your bacon crispy or cooked a little less? Personally I think it depends 
+                on what you're going to eat it with. Like if it's just a strip by itself, crispy all the way. If it's on 
+                a burger, however, I would like it cooked less than crispy so I can avoid the possibilty of stabbing the roof 
+                of my mouth whilst enjoying some juicy beef, you feel me on that?</p> 
+            </div>
+            <img src='images/dirt-trail.jpg' alt="dirt trail">
+        </div>
+    </main>
+
+    <footer>
+        <div class='contact-info'>
+            <h4>Contact Information</h4>
+            <div class="contact">
+                <img src="images/email-icon.svg" alt="email icon">
+                <p>ceo_of_swag@goweatherboy.com</p>
+            </div>
+            <div class="contact">
+                <img src="images/phone-icon.svg" alt="phone icon">
+                <p>1-800-SUN-GOOD</p>
+            </div>
+            <div class="socials">
+                <p>-social media svgs here-</p>
+            </div>
+        </div>
+
+        <div class='footer-map'>
+            <img src="images/contact-map.png" alt='map of location'>
+        </div>
+    
+        <div class='footer-bar'>
+            <div>&copy; <span id="currentYear"></span> | GoWeatherBoy | TJ O'Brien</div>
+            <div id="currentDate"></div>
+        </div>
+    </footer>
+    <script src="js/the-script.js"></script>
+</body>
+</html>

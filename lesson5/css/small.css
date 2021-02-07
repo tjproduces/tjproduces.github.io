@@ -1,0 +1,163 @@
+body {
+	background-color: #6f8ab7;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0
+}
+/*---------- Header ----------*/
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    background-color: whitesmoke;
+	padding: 10px;
+}
+
+header img {
+	float: left;
+	display: block;
+    max-width: 100px;
+}
+
+.headings {
+	text-align: center;
+}
+
+/*---------- banner ----------*/
+.banner {
+    display: none;
+    text-align: center;
+    background-color: #4b84ac;
+    color: #fff;
+    font-size: 16px;
+    padding: .4rem .3rem;
+}
+
+/*---------- Nav ----------*/
+#responsive-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+nav {
+	background-color: rgb(63, 63, 63);
+    text-align: center;
+}
+
+nav li {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+nav button {	
+    margin: .7rem .5rem;
+    border: none;
+    font-size: 1.4rem;
+    background-color: rgb(63, 63, 63);
+    color: whitesmoke;
+}
+.active {
+    background-color: rgb(224, 224, 224);
+}
+
+li a:link {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+li a:visited {
+    color: black;
+}
+
+li a:hover {
+    font-size: large;
+    border: 1px solid #00000031;
+    border-radius: 5px;
+}
+/*---------- Main ----------*/
+main {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: .5em 0 .5em;
+}
+
+main div {
+
+    margin: 1.5em;
+    padding: .5em;
+}
+
+h2 {
+    font-size: 28px;
+}
+/*---------- Hero Image ----------*/
+.hero-image img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-with-weather {
+    display: none;
+}
+
+.weather-summary-med {
+    display: none;
+}
+
+/*---------- 5-Day Forecast ----------*/
+.forecast {
+    max-width: auto;
+    margin: auto;
+    background-color: rgb(228, 228, 228)
+}
+
+
+.forecast-days {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem .5rem;
+}
+
+.forecast-days div {
+    border: #89bbfe solid 1px;
+    margin: auto;
+}
+
+/*---------- Article ----------*/
+.article img {
+    width: 100%;
+    margin: auto;
+}
+
+.article {
+    margin-top: 0;
+}
+
+/*---------- Footer ---------- */
+footer {
+    text-align: left;
+    background-color: rgb(228, 228, 228);
+    padding: 8px;
+}
+
+.contact-info {
+    line-height: .25rem;
+}
+.contact {
+    display: flex;
+}
+.footer-map img {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    padding: 1rem;
+}
+.footer-bar {
+    text-align: center;
+}
