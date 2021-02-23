@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Idaho Town Page Weather">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/small.css'>
+    <link rel='stylesheet' href='css/medium.css'>
+    <title>Preston Town Page - GoWeatherBoy</title>
+</head>
+
+<body>
+    <header>
+        <img src='images/weatherLogo.png' alt='weatherLogo'>
+        <div class='headings'>
+            <h1>GoWeatherBoy</h1>
+            <p><i>No fluff, just the good stuff!</i></p>
+        </div>
+
+    </header>
+    
+    <div class="banner">
+        <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <nav>
+        <button id="menu-button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="responsive-nav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class='hero-image'>
+            <picture>
+                <source media="(max-width: 580px)" srcset="images/hero-small.jpg">
+                <source media="(max-width: 1200px)" srcset="images/hero-medium.jpg">
+                <source media="(min-width: 1200px)" srcset="images/hero-large.jpg">
+                <img src="images/hero-large.jpg" alt="hero image">
+            </picture>
+        </div>
+        
+        <div class='weather-summary'>
+            <h2>Weather Summary</h2>
+            <div class='weather-sumary-info'>
+                <p>Current Conditions: <span class="weatherValue">Clear Skies</span></p>
+                <p>Temperature: <span class="weatherValue" id='temp'>48°</span></p>
+                <p>Feels Like: <span class="weatherValue">41°</span></p>
+
+                <p>Wind Chill: <span class="weatherValue" id="chill"></span</p>
+                <p>Wind Speed: <span class="weatherValue" id="wind">5.60 mph</span></p>
+            </div>
+        </div>
+        
+        <div class='hero-with-weather'>Hero Image w/ Weather Summary</div>
+        
+        <div class='forecast'>
+            <h2>5-Day Forecast</h2>
+            <div class='forecast-days'>
+                <div>
+                    <h3>Sat</h3>
+                    <img src="images/sunny-icon.svg" alt="It's sunny!">
+                    <h4>50°</h4>
+                </div>
+                <div>
+                    <h3>Sun</h3>
+                    <img src="images/sunny-icon.svg" alt="It's sunny!">
+                    <h4>54°</h4>
+                </div>
+                <div>
+                    <h3>Mon</h3>
+                    <img src="images/cloudy-icon.svg" alt="It's cloudy">
+                    <h4>53°</h4>
+                </div>
+                <div>
+                    <h3>Tue</h3>
+                    <img src="images/sunny-icon.svg" alt="It's sunny!">
+                    <h4>56°</h4>
+                </div>
+                <div>
+                    <h3>Wed</h3>
+                    <img src="images/cloudy-icon.svg" alt="It's cloudy">
+                    <h4>43°</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class='article'>
+            <h2>Totally a Weather Article</h2>
+            <p>This is some sweet filler text and you can't judge me for not wanting to use the loriem epsom salts or whatever that 
+                thing is called. Do you like your bacon crispy or cooked a little less? Personally I think it depends 
+                on what you're going to eat it with. Like if it's just a strip by itself, crispy all the way. If it's on 
+                a burger, however, I would like it cooked less than crispy so I can avoid the possibilty of stabbing the roof 
+                of my mouth whilst enjoying some juicy beef, you feel me on that?</p> 
+            <p>Anyways, I'm trying way hard to catch up on this 
+                class, it's been a headache and a half to keep up on my classes as my kiddo hasn't been feeling super well lately. Nothing 
+                super serious, mainly just tummy aches and stuff like that. Since my wife works full-time, I'm on kid duty till about 4pm 
+                each day. When my kiddo isnt feeling good, she only naps if I'm holding her. Don't get me wrong, it melts my heart that she 
+                falls asleep in my arms, but it's not particularly easy to code with one arm while she sleeps. Anywho! Enough of my pitty 
+                party! Let's just act like this was all about the weather (honestly IDK how someone could write this much about the sun or rain 
+                and keep someone's attention). </p>
+            <img src='images/dirt-trail.jpg'
+        </div>
+    </main>
+
+    <footer>
+        <div class='contact-info'>
+            <h4>Contact Information</h4>
+            <div class="contact">
+                <img src="images/email-icon.svg" alt="email icon">
+                <p>ceo_of_swag@goweatherboy.com</p>
+            </div>
+            <div class="contact">
+                <img src="images/phone-icon.svg" alt="phone icon">
+                <p>1-800-SUN-GOOD</p>
+            </div>
+            <div class="socials">
+                <p>-social media svgs here-</p>
+            </div>
+
+        </div>
+        <div class='footer-map'>
+            <img src="images/contact-map.png" alt='map of location'>
+        </div>
+
+        <div class='footer-bar'>
+            <div>&copy; <span id="currentYear"></span> | GoWeatherBoy | TJ O'Brien</div>
+            <div id="currentDate"></div>
+        </div>
+    </footer>
+    <script src="js/the-script.js" type="text/javascript"></script>
+    <script src="js/windchill.js" type="text/javascript"></script>
+</body>
+</html>
