@@ -1,0 +1,158 @@
+body {
+	background-color: #6f8ab7;
+	font-family: 'Josefin Sans', sans-serif;
+}
+/*---------- Header ----------*/
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    background-color: whitesmoke;
+	padding: 10px;
+	margin: 5px;
+	border: solid;
+	border-color: #615d6c;
+	border-width: 1px;
+    border-radius: 5px;
+}
+
+header img {
+	float: left;
+	display: block;
+    max-width: 100px;
+}
+
+.headings {
+	text-align: center;
+}
+
+/*---------- Nav ----------*/
+#responsive-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+nav {
+	background-color: whitesmoke;
+    text-align: center;
+	margin: 5px;
+	border: solid;
+	border-color: #615d6c;
+	border-width: 1px;
+    border-radius: 5px;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav button {	
+    margin: .7rem .5rem;
+    
+    border: none;
+    font-size: 1.4rem;
+}
+
+li a:link {
+    color: #615d6c;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li a:hover {
+	background-color: lightgrey;
+}
+
+/*---------- Main ----------*/
+main {
+    text-align: left;
+    background-color: whitesmoke;
+	margin: 5px;
+	border: solid;
+	border-color: #615d6c;
+	border-width: 1px;
+    border-radius: 5px;
+    padding: .5em 0 .5em;
+}
+
+main div {
+    margin: 1.5em;
+    padding: .5em;
+}
+
+h1 {
+    margin-left: 45px;
+}
+
+
+/*########### Town Data ################*/
+
+section {
+    background-color: #eeeeee;
+    height: 100%;
+}
+
+p, h2, h5 {
+    display: block;
+    text-align: center;
+}
+
+p:nth-child(6){
+    margin: .5rem;
+    padding-bottom: 1rem;
+}
+
+.cards h2 {
+   margin: 0;
+   padding-top: 1rem;
+   font-size: 18px;
+}
+
+.cards h5 {
+    margin: 0;
+    padding: .7rem;
+    font-weight: normal
+}
+
+.cards img {
+    max-width: 100%;
+   margin: auto;
+}
+
+/*########### Article ################*/
+article {
+    margin: 4rem 0;
+}
+
+article p {
+    text-align: left;
+    margin: .5rem 0;
+    line-height: 1.6rem;
+}
+
+.article-img {
+    display: block;
+    float: right;
+    max-width: 100%;
+    margin: auto;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: white;
+	margin: 5px;
+	border: solid;
+	border-color: #615d6c;
+	border-width: 1px;
+    border-radius: 5px;
+    padding: 8px;
+}
