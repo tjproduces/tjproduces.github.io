@@ -1,0 +1,65 @@
+@media only screen and (min-width: 550px) {
+	nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+	}
+	
+	li:first-child a:hover {
+        border-radius: 5px 0 0 5px;
+    }
+
+    li:last-child a:hover {
+        border-radius: 0 5px 5px 0;
+    }
+
+    nav button {
+        display: none;
+	}
+	
+    .hide {
+        display: flex;
+    }
+
+    h1 {
+        margin-left: 40px;
+    }
+
+    /* Weather Summary */
+
+
+    .summary {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        padding: 15px;
+        white-space: nowrap;
+        width: 14rem;
+        color: whitesmoke;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 3px;
+    }
+
+    /* 5 Day Forecast */
+
+    .fiveDayForecast {
+        padding: 1rem 3rem;
+    }
+
+    .fiveDayForecast div {
+        border: #dadada solid 2px;
+        margin: auto;
+    }
+
+    .fiveDayForecast div p {
+        font-size: 18px;
+    }
+
+    .fiveDayForecast div h2 {
+        font-size: 20px;
+    }
+
+}

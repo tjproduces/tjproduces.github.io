@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/home-small.css'>
+    <link rel='stylesheet' href='css/home-medium.css'>
+    <link rel='stylesheet' href='css/home-large.css'>
+    <title>Homepage - GoWeatherBoy</title>
+</head>
+
+<body>
+    <header>
+        <img src='images/weatherLogo.png' alt='weatherLogo'>
+        <div class='headings'>
+            <h1>GoWeatherBoy</h1>
+            <p><i>No fluff, just the good stuff!</i></p>
+        </div>
+    </header>
+
+    <nav>
+        <button id="menu-button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="responsive-nav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <picture class="hero-img">
+            <img src="images/hero-image.jpg" alt="Open Field">
+        </picture>
+
+        <div class="cards"></div>
+
+        <article class=article>
+            
+            <h2>We Are GoWeatherBoy</h2>
+            <p>We at GoWeatherBoy pride ourselves in keeping it simple. </p> 
+            <p>Take a look at any major weather website out there. What do you see? We noticed that most popular weather websites are chuck-full 
+                of advertisements and political articles. Since when did the president of the United States dictate the weather?! Our promise to 
+                you is to keep it simple, relevant, and to the point.
+            </p>
+                <img class="article-img" src="images/homepage-article.jpg" alt="Vibrant Clouds">
+                
+            
+        </article>
+    </main>
+
+    <footer>
+        <div class='contact-info'>
+            <h3>Contact Information</h3>
+            <div class="contact">
+                <img src="images/email-icon.svg" alt="email icon">
+                <p>ceo_of_swag@goweatherboy.com</p>
+            </div>
+            <div class="contact">
+                <img src="images/phone-icon.svg" alt="phone icon">
+                <p>1-800-SUN-GOOD</p>
+            </div>
+
+        </div>
+
+        <div class='footer-map'>
+            <img src="images/contact-map.png" alt='map of location'>
+        </div>
+
+        <div class='footer-bar'>
+            <div>&copy; <span id="currentYear"></span> | GoWeatherBoy | TJ O'Brien</div>
+            <div id="currentDate"></div>
+        </div>
+    </footer>
+    <script src="js/home-script.js" type="text/javascript"></script>
+</body>
+</html>

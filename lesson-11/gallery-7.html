@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel='stylesheet' href='lesson7/css/normalize.css'>
+    <link rel='stylesheet' href='lesson7/css/small.css'>
+    <link rel='stylesheet' href='lesson7/css/medium.css'>
+    <link rel='stylesheet' href='lesson7/css/large.css'>
+    <title>Gallery - GoWeatherBoy</title>
+</head>
+
+<body>
+    <header>
+        <img src='lesson7/images/weatherLogo.png' alt='weatherLogo'>
+        <div class='headings'>
+            <h1>GoWeatherBoy</h1>
+            <p><i>No fluff, just the good stuff!</i></p>
+        </div>
+
+    </header>
+
+    <nav>
+        <button id="menu-button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="responsive-nav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="images">
+            
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/autumn-river.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="River in forest clearing">
+                </picture>
+                <p class="img-text">Stream in the Forest</p>
+            </div>
+
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/camping-mountain.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="mountain range view from tent">
+                </picture>
+                <p class="img-text">Camper's Summer Morning View</p>
+            </div>
+
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/camping-sunset.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="Man watching sunset">
+                </picture>
+                <p class="img-text">Admire the Fall Sunsets</p>
+            </div>
+
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/fall-morning.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="Red-leaf tree with sun">
+                </picture>
+                <p class="img-text">Autumn Mornings</p>
+            </div>
+
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/homies-firepit.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="Friends around firepit">
+                </picture>
+                <p class="img-text">Bundle up for Fall Gatherings</p>
+            </div>
+
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/lake-mountains.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="Mountains over lake">
+                </picture>
+                <p class="img-text">Chilly Winter Lake</p>
+            </div>
+
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/pumpkins.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="Pumpkin patch">
+                </picture>
+                <p class="img-text">Pumpkin Season!</p>
+            </div>
+
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/snowy-mountains.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="Mountains over snowy plain">
+                </picture>
+                <p class="img-text">The Winter Wilderness</p>
+            </div>
+
+            <div class="gallery-img-box">
+                <picture>
+                    <img data-src="lesson7/images/winter-buildings.jpg" src="lesson7/images/placeholder.png" class="gallery-img" alt="Buildings in snow">
+                </picture>
+                <p class="img-text">Little Snowy Town</p>
+            </div>
+
+        </div>
+       
+    </main>
+
+    <footer>
+        <div class='contact-info'>
+            <h3>Contact Information</h3>
+            <div class="contact">
+                <img src="images/email-icon.svg" alt="email icon">
+                <p>ceo_of_swag@goweatherboy.com</p>
+            </div>
+            <div class="contact">
+                <img src="images/phone-icon.svg" alt="phone icon">
+                <p>1-800-SUN-GOOD</p>
+            </div>
+
+        </div>
+
+        <div class='footer-map'>
+            <img src="images/contact-map.png" alt='map of location'>
+        </div>
+
+        <div class='footer-bar'>
+            <div>&copy; <span id="currentYear"></span> | GoWeatherBoy | TJ O'Brien</div>
+            <div id="currentDate"></div>
+        </div>
+    </footer>
+    <script src="lesson7/js/the-script.js" type="text/javascript"></script>
+    <script src="lesson7/js/lazy-loading.js"></script>
+</body>
+</html>

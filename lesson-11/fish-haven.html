@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel='stylesheet' href='lesson-10/css/normalize.css'>
+    <link rel='stylesheet' href='lesson-10/css/small.css'>
+    <link rel='stylesheet' href='lesson-10/css/medium.css'>
+    <link rel='stylesheet' href='lesson-10/css/large.css'>
+    <title>Soda Springs - GoWeatherBoy</title>
+</head>
+
+<body>
+    <header>
+        <img src='lesson-10/images/weatherLogo.png' alt='weatherLogo'>
+        <div class='headings'>
+            <h1>GoWeatherBoy</h1>
+            <p><i>No fluff, just the good stuff!</i></p>
+        </div>
+    </header>
+
+    <nav>
+        <button id="menu-button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="responsive-nav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Fish Haven</h1>
+        <div class="hero-img">
+            <img src="images/fish-hero.jpg" alt="Tree Branch on Lake">
+            <div class="summary">
+                <h2>Weather Summary</h2>
+                <p>Current Condition: <span class="weatherValue" id="cond"></span></p>
+                <p>Max Temp: <span class="weatherValue" id="temp"></span></p>
+                <p>Wind Chill: <span class="weatherValue" id="chill"></span></p>
+                <p>Humidity: <span class="weatherValue" id="humidity"></span></p>
+                <p>Wind Speed: <span class="weatherValue" id="speed"></span></p>
+            </div>
+        </div>
+        
+        <h1>5 Day Forecast</h1>
+        <div class="fiveDayForecast">
+            <div>
+                <p id="dayofweek1"></p>
+                <img id="icon1" src=" " alt="unknown">
+                <h2 id="forecast1"></h2>
+            </div>
+            <div>
+                <p id="dayofweek2"></p>
+                <img id="icon2" src=" " alt="unknown">
+                <h2 id="forecast2"></h2>
+            </div>
+            <div>
+                <p id="dayofweek3"></p>
+                <img id="icon3" src=" " alt="unknown">
+                <h2 id="forecast3"></h2>
+            </div>
+            <div>
+                <p id="dayofweek4"></p>
+                <img id="icon4" src=" " alt="unknown">
+                <h2 id="forecast4"></h2>
+            </div>
+            <div>
+                <p id="dayofweek5"></p>
+                <img id="icon5" src=" " alt="unknown">
+                <h2 id="forecast5"></h2>
+            </div>
+        </div>
+        
+        <div class="article">
+            <h2>It's Time For an Adventure!</h2>
+            <p>Down in the southeast corner of Idaho, only 2.5 miles north of the Utah Border, is where we find the community of Fish Haven.</p> 
+            <p>Although small, Fish Haven isn't a community you want to pass by if you have the time! Home of Bear Lake State Park and the 
+                Minnetonka Cave, Fish Haven will have you embracing your inner adventurer in no time.
+            </p>
+            <img src='images/fish-article.jpg' alt='small stream'>
+        </div>
+
+        <div class="events">
+            <h3>Fish Haven Events</h3>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class='contact-info'>
+            <h3>Contact Information</h3>
+            <div class="contact">
+                <img src="images/email-icon.svg" alt="email icon">
+                <p>ceo_of_swag@goweatherboy.com</p>
+            </div>
+            <div class="contact">
+                <img src="images/phone-icon.svg" alt="phone icon">
+                <p>1-800-SUN-GOOD</p>
+            </div>
+
+        </div>
+
+        <div class='footer-map'>
+            <img src="images/contact-map.png" alt='map of location'>
+        </div>
+
+        <div class='footer-bar'>
+            <div>&copy; <span id="currentYear"></span> | GoWeatherBoy | TJ O'Brien</div>
+            <div id="currentDate"></div>
+        </div>
+    </footer>
+    <script src="js/fish-script.js" type="text/javascript"></script>
+</body>
+</html>

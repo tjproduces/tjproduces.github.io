@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1000px) {
+    /* 5 Day forecast */
+
+    .fiveDayForecast div {
+        padding: 0 3rem;
+        margin: auto;
+    }
+
+    .fiveDayForecast div h2 {
+        font-size: 20px;
+    }
+
+    .fiveDayForecast div img {
+        height: 45px;
+    }
+    
+}

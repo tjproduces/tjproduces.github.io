@@ -1,0 +1,52 @@
+@media only screen and (min-width: 550px) {
+	nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+	}
+	
+	li:first-child a:hover {
+        border-radius: 5px 0 0 5px;
+    }
+
+    li:last-child a:hover {
+        border-radius: 0 5px 5px 0;
+    }
+
+    nav button {
+        display: none;
+	}
+	
+    .hide {
+        display: flex;
+    }
+
+    h1 {
+        margin-left: 40px;
+    }
+
+    /*---------- Form ----------*/
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+     
+    form input.submit-button {
+        width: 250px;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+    }
+   
+
+    
+
+
+
+
+}
