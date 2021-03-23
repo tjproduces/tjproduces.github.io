@@ -1,4 +1,9 @@
 @media only screen and (min-width: 1000px) {
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
     /* 5 Day forecast */
 
     .fiveDayForecast div {

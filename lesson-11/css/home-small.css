@@ -1,18 +1,20 @@
 body {
 	background-color: #6f8ab7;
 	font-family: 'Josefin Sans', sans-serif;
+    padding: 0px;
 }
+
 /* Header */
 header {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
     background-color: whitesmoke;
-	padding: 10px;
+	padding: 0px;
 	margin: 5px;
 	border: solid;
 	border-color: #615d6c;
 	border-width: 1px;
-    border-radius: 5px;
+    
 }
 
 header img {
@@ -43,7 +45,7 @@ nav {
 	border: solid;
 	border-color: #615d6c;
 	border-width: 1px;
-    border-radius: 5px;
+    
 }
 
 nav li {
@@ -76,13 +78,8 @@ main {
 	border: solid;
 	border-color: #615d6c;
 	border-width: 1px;
-    border-radius: 5px;
-    padding: .5em 0 .5em;
-}
-
-main div {
-    margin: .5em;
-    padding: .5em;
+    
+    
 }
 
 h1 {
@@ -138,7 +135,6 @@ p:nth-child(6) {
 /* Article */
 
 .article {
-    
     padding: 0 1rem;
     margin-top: 0;
 }
@@ -163,14 +159,11 @@ footer {
 	border: solid;
 	border-color: #615d6c;
 	border-width: 1px;
-    border-radius: 5px;
-    padding: 8px;
 }
 
 footer h3 {
     padding: 1rem;
     background-color: whitesmoke;
-    border-radius: 5px;
 }
 
 .footer-map img {
@@ -183,5 +176,4 @@ footer h3 {
 .footer-bar {
     padding: 1rem;
     background-color: whitesmoke;
-    border-radius: 5px;
 }
