@@ -3,18 +3,20 @@
 /*                         Shared Styles                              */
 /*====================================================================*/
 
-/********************* Body ************************/
+/**************** Body *******************/
 body {
-    background-color: white;  
+    background-color: #219ebc;
 	font-family: 'Josefin Sans', sans-serif;
     padding: 0px;
     margin: auto;
 }
 
-/********************* Header **********************/
+/**************** Header *****************/
 header {
+    background-color: white;
 	display: flex;
     padding: 10px;
+    max-width: 100%;
 }
 
 header img {
@@ -28,7 +30,7 @@ header img {
 	text-align: center;
 }
 
-/********************* Nav *************************/
+/**************** Nav ********************/
 #responsive-nav {
     list-style-type: none;
     
@@ -40,6 +42,7 @@ header img {
 }
 
 nav {
+    background-color: white;
     text-align: center;
     border-top: 1px solid rgb(180, 180, 180);
     border-bottom: 1px solid rgb(180, 180, 180);
@@ -66,7 +69,7 @@ li a:hover {
 	background-color: lightgrey;
 }
 
-/********************* Main ************************/
+/**************** Main *******************/
 main {
     text-align: left;
     background-color: white;
@@ -84,7 +87,7 @@ div {
     border-top: 1px solid lightgray;
 }
 
-/********************* Footer **********************/
+/**************** Footer *****************/
 footer {
     text-align: center;
     color: white;
@@ -118,14 +121,14 @@ footer p {
 /*====================================================================*/
 
 
-/********************* Call to Action **************/
+/**************** Call to Action *********/
 .call-to-action {
     text-align: center;
     padding: 50px;
     display: grid;
     align-items: center;
     justify-content: center;
-    background-image: url("https://www.rexburg.org/sites/default/files/styles/full_node_primary_extra_wide/public/imageattachments/area-info/page/8891/tetons_-_t.jpg?itok=mD4iiGIw");
+    background-color: #023047;
 }
 
 .call-to-action a {
@@ -133,6 +136,7 @@ footer p {
     text-decoration: none;
     color: white;
     background-color: black;
+    padding: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -143,12 +147,12 @@ footer p {
     max-width: 100%;
 }
 
-/********************* Weather Info ****************/
+/**************** Weather Info ***********/
 
 
 
 
-/********************* Advertisements **************/
+/**************** Advertisements *********/
 .advertisements {
     background-color: #8ecae6;
     padding-bottom: 1px;
@@ -168,7 +172,7 @@ footer p {
     background-color: white;
 }
 
-/********************* Chamber Purpose *************/
+/**************** Chamber Purpose ********/
 .chamber-purpose {
     padding-top: 0px;
     margin-top: 0px;
@@ -181,7 +185,7 @@ footer p {
 
 }
 
-/********************* Socials *********************/
+/**************** Socials ****************/
 .socials {
     padding: 10px;
     margin: auto;
@@ -200,7 +204,7 @@ footer p {
     margin-right: auto;
 }
 
-/********************* Contact *********************/
+/**************** Contact ****************/
 .contact-info {
     text-align: center;
     display: grid;
@@ -224,7 +228,7 @@ footer p {
 /*====================================================================*/
 
 .rex-header {
-    background-color: #219ebc;
+    background-color: #023047;
     padding: 20px;
     color: white;
     font-size: larger;
@@ -235,13 +239,16 @@ footer p {
     text-align: center;
 }
 
+.rex-history img {
+    max-width: 100%;
+}
 
 
 /*====================================================================*/
 /*                         Join/Thank You Styles                      */
 /*====================================================================*/
 
-/********************* Form ************************/
+/**************** Form *******************/
 form {
     display: block;
 }
@@ -297,7 +304,7 @@ form input.submit-button {
     margin: 0 0 2rem 2.7rem;
 }
 
-/********************* Thank You *******************/
+/**************** Thank You **************/
 
 .thankyou {
     display: block;
@@ -310,7 +317,18 @@ form input.submit-button {
 /*====================================================================*/
 /*                         Directory Styles                           */
 /*====================================================================*/
+.cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+.cards section {
+    margin-top: 1rem;
+        background-color: #eee;
+        width: 100%;
+        justify-content: space-between;
+}
 
 
 /*====================================================================*/

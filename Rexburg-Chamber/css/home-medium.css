@@ -1,100 +1,87 @@
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 650px) {
 
-    .hero-img {
-        padding: 2em 2em;
-    }
+/*====================================================================*/
+/*                         Shared Styles                              */
+/*====================================================================*/
 
-	nav ul {
-        display: flex;
-    }
+nav ul {
+    display: flex;
+}
 
-    nav ul li {
-        flex: 1 1 100%;
-	}
-	
-	li:first-child a:hover {
-        border-radius: 5px 0 0 5px;
-    }
+nav ul li {
+    flex: 1 1 100%;
+}
 
-    li:last-child a:hover {
-        border-radius: 0 5px 5px 0;
-    }
+li:first-child a:hover {
+    border-radius: 5px 0 0 5px;
+}
 
-    nav button {
-        display: none;
-	}
-	
-    .hide {
-        display: flex;
-    }
+li:last-child a:hover {
+    border-radius: 0 5px 5px 0;
+}
 
-    h1 {
-        margin-left: 40px;
-    }
+nav button {
+    display: none;
+}
 
-    /* Cards */
+.hide {
+    display: flex;
+}
 
-    .cards img {
-        height: 250px;
-    }
+h1 {
+    margin-left: 40px;
+}
 
-    .cards h2 {
-        font-size: 24px;
-    }
+/*====================================================================*/
+/*                          Home Styles                               */
+/*====================================================================*/
+.call-to-action a {
+    font-size: x-large;
+    padding: 20px;
+}
 
-    .cards {
-        margin: .5rem auto;
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 0;
-    }
+/*====================================================================*/
+/*                         Rexburg Styles                             */
+/*====================================================================*/
 
-    .cards section {
-        display: flex;
-        flex-direction: row;
-        margin-top: 1rem;
-        background-color: #eee;
-        width: 100%;
-        justify-content: space-between;
-    }
 
-    .card section:nth-child(even) {
-        flex-direction: row-reverse;
-    }
+/*====================================================================*/
+/*                         Join/Thank You Styles                      */
+/*====================================================================*/
 
-    .cards img {
-        width: 400px;
-    }
 
-    .townInfo {
-        margin-left: 1rem;
-        width: 50%;
-    }
+/*====================================================================*/
+/*                         Directory Styles                           */
+/*====================================================================*/
 
-    .townInfo p {
-        margin: 1rem 0 0 0;
-        font-size: 14px;
-    }
+.cards img {
+    height: 250px;
+}
 
-    .townInfo h5 {
-        font-size: 16px;
-    }
+.cards h2 {
+    font-size: 24px;
+}
 
-    section:nth-child(even) {
-        flex-direction: row-reverse;
-    }
+.cards  {
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/*====================================================================*/
+/*                         Contact Styles                             */
+/*====================================================================*/
+
+    
 
 
 
-    /*########## Article #########*/
-
-
-    .article-img {
-        align-content: center;
-        max-width: 100%;
-       
-    }
-
+    
     
 
 }

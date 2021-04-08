@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://raw.githubusercontent.com/tjproduces/tjproduces.github.io/master/Rexburg-Chamber/json/directory.json';
 
 
 fetch(requestURL)
@@ -10,22 +10,19 @@ fetch(requestURL)
 
     for (let i = 0; i < biz.length; i++) {
         let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let motto = document.createElement('h5');
-        let yearFounded = document.createElement('p');
+        let name = document.createElement('h2');
+        let phone = document.createElement('h5');
+        let website = document.createElement('h5');
         
 
-        h2.textContent = towns[i].name + ' ';
-        motto.textContent = towns[i].motto;
-        yearFounded.textContent = 'Year Found: ' + towns[i].yearFounded;
+        name.textContent = biz[i].name;
+        phone.textContent = 'phone: ' + biz[i].phone;
+        website.textContent = 'website: ' + biz[i].website;
         
-        divInfo.appendChild(h2);
-        divInfo.appendChild(motto);
-        divImg.appendChild(image);
-        divInfo.appendChild(yearFounded);
+        card.appendChild(name);
+        card.appendChild(phone);
+        card.appendChild(website);
       
-
-
         document.querySelector('div.cards').appendChild(card);
     }
 });
