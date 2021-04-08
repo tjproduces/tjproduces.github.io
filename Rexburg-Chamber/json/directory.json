@@ -1,0 +1,45 @@
+{
+    "businesses": [
+        {
+            "name": "BarberPop Shop",
+            "phone": "208.419.3359",
+            "website": "barberpopshop.com"
+        },
+
+        {
+            "name": "Crumbl Cookies",
+            "phone": "208.254.5556",
+            "website": "crumblcookies.com"
+        },
+
+        {
+            "name": "Paradise Donuts and Gelato",
+            "phone": "208.359.9758",
+            "website": "myownparadise.info"
+        },
+
+        {
+            "name": "The Rock Gym",
+            "phone": "208.252.9973",
+            "website": "therockgymrexburg.com"
+        },
+
+        {
+            "name": "Legacy Golf Course",
+            "phone": "208.359.3037",
+            "website": "tetonlakesgc.com"
+        },
+
+        {
+            "name": "Fat Cats of Rexburg",
+            "phone": "208.359.2600",
+            "website": "rexburg.fatcatsfun.com"
+        },
+
+        {
+            "name": "Heise Hot Springs",
+            "phone": "208.538.7312",
+            "website": "heisehotsprings.net"
+        }
+    ]
+  }

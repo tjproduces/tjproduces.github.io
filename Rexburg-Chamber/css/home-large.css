@@ -1,0 +1,45 @@
+@media only screen and (min-width: 1000px) {
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .cards img {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .cards h2{
+        font-size: 24px;
+    }
+
+    .cards  {
+        margin-top: 2rem;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .cards section .townInfo {
+        margin-left: 25%;
+    }
+    .cards section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards h5 {
+        font-size: 14px;
+    }
+
+    .cards section p {
+        margin: .5rem;
+        font-size: 13px;
+    }
+    
+}

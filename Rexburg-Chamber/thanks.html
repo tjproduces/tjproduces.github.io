@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join Thank you page for fictional Rexburg Chamber of Commerce">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/home-small.css'>
+    <link rel='stylesheet' href='css/home-medium.css'>
+    <link rel='stylesheet' href='css/home-large.css'>
+    <title>Rexburg Chamber - Thank You</title>
+</head>
+
+<body>
+    <header>
+        <h1>Rexburg Chamber of Commerce</h1>
+        <img src='/Rexburg-Chamber/images/CoClogo.png' alt='Commerce Logo'>
+    </header>
+
+    <nav>
+        <button id="menu-button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="responsive-nav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rexburg.html">Rexburg</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="thankyou">
+            <h2>Thank You</h2>
+            <p>We'll be in touch shortly.</p>
+            <a href="index.html">Home</a>
+        </div>
+
+         <div class='contact-info'>
+            <div class="contact-header"><h3>Contact Information</h3></div>
+            
+            <div class="contact">
+                <img src="images/email-icon.svg" alt="email icon">
+                <p>contact@rexburgcc.com</p>
+            </div>
+            <div class="contact">
+                <img src="images/phone-icon.svg" alt="phone icon">
+                <p>1-800-123-4567</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class='footer-map'>
+            <img src="images/Rexburg-CoC-Map.png" alt='map of location'>
+        </div>
+
+        <div class='footer-bar'>
+            <p>&copy; <span id="currentYear"></span> | Rexburg Chamber | TJ O'Brien</p>
+            <p id="currentDate"></p>
+        </div>
+    </footer>
+    <script src="js/home-script.js" type="text/javascript"></script>
+</body>
+</html>

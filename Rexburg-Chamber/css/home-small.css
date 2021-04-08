@@ -1,0 +1,332 @@
+
+/*====================================================================*/
+/*                         Shared Styles                              */
+/*====================================================================*/
+
+/********************* Body ************************/
+body {
+    background-color: white;  
+	font-family: 'Josefin Sans', sans-serif;
+    padding: 0px;
+    margin: auto;
+}
+
+/********************* Header **********************/
+header {
+	display: flex;
+    padding: 10px;
+}
+
+header img {
+    display: block;
+	float: right;
+    width: 100px;
+    height: 100px;
+}
+
+.headings {
+	text-align: center;
+}
+
+/********************* Nav *************************/
+#responsive-nav {
+    list-style-type: none;
+    
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+nav {
+    text-align: center;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+nav li {
+    text-align: center;
+}
+
+nav button {	
+    margin: .7rem .5rem;
+    border: none;
+    font-size: 1.4rem;
+}
+
+li a:link {
+    color: #615d6c;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li a:hover {
+	background-color: lightgrey;
+}
+
+/********************* Main ************************/
+main {
+    text-align: left;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    padding: 5px 10px;
+}
+
+div {
+    border-top: 1px solid lightgray;
+}
+
+/********************* Footer **********************/
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(51, 51, 51);
+}
+
+footer h3 {
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+footer p {
+    padding: 0px;
+}
+
+.footer-map img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.footer-bar {
+    padding: 1rem;
+    background-color: rgb(51, 51, 51);
+}
+
+
+/*====================================================================*/
+/*                          Home Styles                               */
+/*====================================================================*/
+
+
+/********************* Call to Action **************/
+.call-to-action {
+    text-align: center;
+    padding: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.rexburg.org/sites/default/files/styles/full_node_primary_extra_wide/public/imageattachments/area-info/page/8891/tetons_-_t.jpg?itok=mD4iiGIw");
+}
+
+.call-to-action a {
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+}
+
+.call-to-action img {
+    max-width: 100%;
+}
+
+/********************* Weather Info ****************/
+
+
+
+
+/********************* Advertisements **************/
+.advertisements {
+    background-color: #8ecae6;
+    padding-bottom: 1px;
+}
+.ad-box {
+    background-color: white;
+    margin: 10px;
+}
+.ad-box h2 {
+    background-color: #fb8500;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 0px;
+}
+
+.final-section {
+    background-color: white;
+}
+
+/********************* Chamber Purpose *************/
+.chamber-purpose {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.chamber-purpose h2 {
+    background-color: #023047;
+    color: white;
+    padding: 10px;
+
+}
+
+/********************* Socials *********************/
+.socials {
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+}
+.social-icons {
+    display: flex;
+    border-top: hidden;
+}
+
+.socials img {
+    max-width: 15%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********************* Contact *********************/
+.contact-info {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-header {
+    grid-column: span 2;
+    border-top: hidden;
+}
+
+.contact {
+    
+    border-top: hidden;
+}
+
+
+
+/*====================================================================*/
+/*                         Rexburg Styles                             */
+/*====================================================================*/
+
+.rex-header {
+    background-color: #219ebc;
+    padding: 20px;
+    color: white;
+    font-size: larger;
+    letter-spacing: .5em;
+}
+
+.rex-events p {
+    text-align: center;
+}
+
+
+
+/*====================================================================*/
+/*                         Join/Thank You Styles                      */
+/*====================================================================*/
+
+/********************* Form ************************/
+form {
+    display: block;
+}
+
+form label.label-headers input:required {
+    border: red solid 1px;
+}
+
+form label.label-headers input:required:valid {
+    border: green solid 1px;
+}
+
+fieldset label {
+    display: block;
+    margin-top: 15px;
+}
+
+form fieldset {
+    border: hidden;
+    margin: 1rem 2rem;
+}
+
+form legend {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #219ebc;
+    border-top: 1px solid #219ebc;
+    width: 100%
+}
+
+form label.label-headers input, textarea, select {
+    display: block;
+    width: 20rem;
+    padding: 1rem;
+    background-color: #dcdcdc;
+    border: hidden;
+    border-radius: 3px;
+}
+
+form div {
+    margin: 1rem 0;
+}
+
+form input.submit-button {
+    margin: auto;
+    border: none;
+    background-color: #fb8500;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 0 0 2rem 2.7rem;
+}
+
+/********************* Thank You *******************/
+
+.thankyou {
+    display: block;
+    text-align: center;
+    margin: 60px 0px;
+}
+
+
+
+/*====================================================================*/
+/*                         Directory Styles                           */
+/*====================================================================*/
+
+
+
+/*====================================================================*/
+/*                         Contact Styles                             */
+/*====================================================================*/
+iframe {
+    margin: 10px;
+    max-width: 100%;
+}
+
+.board-of-dir {
+    padding: 10px;
+}
+
+.orange-contact {
+    padding: 10px;
+    background-color: #fb8500;
+    color: white;
+}

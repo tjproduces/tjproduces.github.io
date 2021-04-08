@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage for the fictional Rexburg Chamber of Commerce">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/home-small.css'>
+    <link rel='stylesheet' href='css/home-medium.css'>
+    <link rel='stylesheet' href='css/home-large.css'>
+    <title>Rexburg Chamber - Homepage</title>
+</head>
+
+<body>
+    <header>
+        <h1>Rexburg Chamber of Commerce</h1>
+        <img src='/Rexburg-Chamber/images/CoClogo.png' alt='Commerce Logo'>
+    </header>
+
+    <nav>
+        <button id="menu-button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="responsive-nav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rexburg.html">Rexburg</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class='contact-info'>
+            <div class="contact-header"><h2 class="orange-contact">Contact Information</h2></div>
+            
+            <div class="contact">
+                <img src="images/email-icon.svg" alt="email icon">
+                <p>contact@rexburgcc.com</p>
+            </div>
+            <div class="contact">
+                <img src="images/phone-icon.svg" alt="phone icon">
+                <p>1-800-123-4567</p>
+            </div>
+        </div>
+
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.448562672314!2d-111.7913550485768!3d43.82579637901336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a515035ed5f%3A0x1f0ff829aca1e068!2sRexburg%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1617848866036!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <h2>Contact Us</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class='label-headers'>Name:<input type="text" name="fname" pattern="[A-Za-z ]+" placeholder="Peter"required></label>
+                <label class='label-headers'>Email:<input type="email" name="email" placeholder="totes_not_spiderman@email.com" required></label>
+                <label class='label-headers'>Phone:<input type="tel" name="phone" placeholder="1234567890"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comments</legend>
+                <label class='label-headers'><textarea placeholder="Tell us what's on your mind..."></textarea></label>
+            </fieldset>
+            
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+
+        <div class="board-of-dir">
+            <h2>Your Board of Directors</h2>
+            <div>
+                <h4>Executive Board</h4>
+                <ul>
+                    <li>Chris Mann, President</li>
+                    <li>Brandon Tighe, Chairman of Board</li>
+                    <li>Jane Call, Vice Chairman</li>
+                    <li>Rick Excell, Treasurer</li>
+                    <li>Craig Cobia, Secretary</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Directors</h4>
+                <ul>
+                    <li>Alison Banta</li>
+                    <li>Bill Holt</li>
+                    <li>Brad Reed</li>
+                    <li>Brad Wolfe</li>
+                    <li>David Rail</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Appointed Directors</h4>
+                <ul>
+                    <li>Bob Jones</li>
+                    <li>Brent Crowther</li>
+                    <li>Brett Sampson</li>
+                    <li>Doug Smith</li>
+                    <li>Gale Harding</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class='footer-bar'>
+            <p>&copy; <span id="currentYear"></span> | Rexburg Chamber | TJ O'Brien</p>
+            <p id="currentDate"></p>
+        </div>
+    </footer>
+    <script src="js/home-script.js" type="text/javascript"></script>
+</body>
+</html>

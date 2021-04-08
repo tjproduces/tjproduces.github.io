@@ -1,0 +1,100 @@
+@media only screen and (min-width: 550px) {
+
+    .hero-img {
+        padding: 2em 2em;
+    }
+
+	nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+	}
+	
+	li:first-child a:hover {
+        border-radius: 5px 0 0 5px;
+    }
+
+    li:last-child a:hover {
+        border-radius: 0 5px 5px 0;
+    }
+
+    nav button {
+        display: none;
+	}
+	
+    .hide {
+        display: flex;
+    }
+
+    h1 {
+        margin-left: 40px;
+    }
+
+    /* Cards */
+
+    .cards img {
+        height: 250px;
+    }
+
+    .cards h2 {
+        font-size: 24px;
+    }
+
+    .cards {
+        margin: .5rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+
+    .cards section {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+        background-color: #eee;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .card section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .cards img {
+        width: 400px;
+    }
+
+    .townInfo {
+        margin-left: 1rem;
+        width: 50%;
+    }
+
+    .townInfo p {
+        margin: 1rem 0 0 0;
+        font-size: 14px;
+    }
+
+    .townInfo h5 {
+        font-size: 16px;
+    }
+
+    section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+
+
+    /*########## Article #########*/
+
+
+    .article-img {
+        align-content: center;
+        max-width: 100%;
+       
+    }
+
+    
+
+}
