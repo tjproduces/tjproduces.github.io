@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Homepage for the fictional Rexburg Chamber of Commerce">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='css/normalize.css'>
     <link rel='stylesheet' href='css/home-small.css'>
     <link rel='stylesheet' href='css/home-medium.css'>
     <link rel='stylesheet' href='css/home-large.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Rexburg Chamber - Homepage</title>
 </head>
 
@@ -36,8 +38,25 @@
          </div>
 
          <div class="weather-info">
-             <h2>Weather Summary</h2>
-             <p>To-Do: ADD WEATHER API</p>
+             <!-- TO DO: FIX API JS-->
+            <h1>3 Day Forecast</h1>
+            <div class="fiveDayForecast">
+                <div>
+                    <p id="dayofweek1"></p>
+                    <img id="icon1" src=" " alt="unknown">
+                    <h2 id="forecast1"></h2>
+                </div>
+                <div>
+                    <p id="dayofweek2"></p>
+                    <img id="icon2" src=" " alt="unknown">
+                    <h2 id="forecast2"></h2>
+                </div>
+                <div>
+                    <p id="dayofweek3"></p>
+                    <img id="icon3" src=" " alt="unknown">
+                    <h2 id="forecast3"></h2>
+                </div>
+            </div>
          </div>
 
          <div class="advertisements">
